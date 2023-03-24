@@ -1,0 +1,45 @@
+.item-description {
+    padding: 5x;
+    width: 200px;
+    margin-bottom: 10x;;
+    float: center;
+}
+
+.item-completed:checked + .item-description {
+    background: white;
+    text-decoration: line-through;
+    float: center;
+    text-align: center;
+}
+#add {
+    padding: 8px 14px;
+    font-weight: bold;
+    color: white;
+    background: purple;
+    cursor: pointer;
+}
+body, html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-image: url("icecream.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.center {
+     width: 34%; 
+    margin: auto;
+    float: right; 
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: blueviolet;
+}
+input {
+    text-align: center;
+    align-items: center;
+}
